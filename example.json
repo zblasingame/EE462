@@ -1,0 +1,37 @@
+{
+  "whichday": {
+    "test": [
+      "Apr 1 2017",
+      "Jan 06 2017",
+      "Mar 2 2017",
+      "Dec 31 2017",
+      "May 9 2017"
+    ],
+    "answer": [
+      "Saturday",
+      "Friday",
+      "Thursday",
+      "Sunday",
+      "Tuesday"
+    ]
+  },
+  "whichyears": {
+    "test": [
+      "Apr 5 1991",
+      "May 9 1989"
+    ],
+    "answer": [
+      "Apr 5 1991 Friday\nApr 5 1996 Friday\nApr 5 2002 Friday\nApr 5 2013 Friday",
+      "May 9 1989 Tuesday\nMay 9 1995 Tuesday\nMay 9 2000 Tuesday\nMay 9 2006 Tuesday\nMay 9 2017 Tuesday"
+    ]
+  },
+  "dlist": {
+    "test": [
+      "",
+      "d",
+      "x",
+      "nx"
+    ],
+    "answer": null
+  }
+}
