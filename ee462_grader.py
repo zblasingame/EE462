@@ -49,7 +49,7 @@ with open(args.lab_dir + '/' + args.students, 'r') as f:
 
 for student in students:
     print('Processing ' + student)
-    output = 'Testing {} lab7 submission\n'.format(student)
+    output = 'Testing {} {} submission\n'.format(student, args.lab_dir)
 
     for key in testing_data:
         script_name = '{2}/{0}/{1}{0}'.format(key, student, args.lab_dir)
